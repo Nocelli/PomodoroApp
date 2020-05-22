@@ -63,7 +63,7 @@ export default function App() {
       <View style={styles.switch}>
         <Switch
           style={styles.switchToggle}
-          trackColor={{ false: "#767577", true: "#6C63FF" }}
+          trackColor={{ false: "#767577", true: "#ff6658" }}
           thumbColor={isWorkTime ? "#f0f0f5" : "#f4f3f4"}
           onValueChange={toggleWork}
           value={isWorkTime} />
@@ -76,7 +76,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#ededed',
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -95,7 +95,7 @@ const styles = StyleSheet.create({
   button: {
     padding: 20,
     margin: 10,
-    backgroundColor: '#6C63FF',
+    backgroundColor: '#ff6658',
     borderRadius: 16,
   },
   switch: {
